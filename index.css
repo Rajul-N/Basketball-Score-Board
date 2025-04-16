@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 12px;
+  text-align: center;
+    
+}
+
+.home-score, .guest-score {
+    width: 155px;
+    height: 120px;
+    font-family: 'Wallpoet';
+  font-size: 69px;
+  font-style: normal;
+font-weight: 400;
+line-height: 126.666px; /* 140.74% */
+  background-color: black;
+  color: #F94F6D;
+  /* padding: 10px 20px; */
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.home-buttons, .guest-buttons {
+    display: flex;
+}
+
+.score-btn {
+    width: 45px;
+    height: 45px;
+  font-size: 18px;
+  /* padding: 12px; */
+  margin: 6px;
+  background-color: #1B244A;
+  border: 1px solid #9AABD8;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.score-btn:hover {
+  background-color: #B0C4FF;
+}
